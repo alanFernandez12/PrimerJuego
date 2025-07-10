@@ -138,8 +138,8 @@ public class WarriorMove : MonoBehaviour
         Vector2 shootDirection = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
 
         // 3. Rotar la flecha para que coincida con la dirección
-        float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
-        arrow.transform.rotation = Quaternion.Euler(0, 0, angle);
+        //float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
+
 
         // 4. Asignar dirección al script de movimiento de la flecha
         ArrowMove arrowScript = arrow.GetComponent<ArrowMove>();
