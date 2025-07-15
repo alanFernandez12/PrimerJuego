@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
@@ -40,6 +41,7 @@ public class HealthSystem : MonoBehaviour
         if (gameObject.CompareTag("Player"))
         {
             //gameObject.SetActive(false);
+            
         }
         else
         {
@@ -49,4 +51,6 @@ public class HealthSystem : MonoBehaviour
 
         
     }
+
+   
 }

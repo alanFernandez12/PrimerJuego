@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class IaEnemy : MonoBehaviour
@@ -15,13 +16,14 @@ public class IaEnemy : MonoBehaviour
     private GameObject colision;
     private float distancePlayer;
 
+    public SoundManager sound;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-       
+        sound   = GetComponent<SoundManager>();
     }
 
     // Update is called once per frame
@@ -57,8 +59,8 @@ public class IaEnemy : MonoBehaviour
                 Vector2 direction = (player.transform.position - transform.position).normalized;
 
                 //rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
-                //rb.velocity = rb.position *direction * speed * Time.fixedDeltaTime;
-                rb.velocity = direction * speed * Time.fixedDeltaTime;
+                rb.velocity = rb.position *direction * speed * Time.fixedDeltaTime;
+                //rb.velocity = direction * speed * Time.fixedDeltaTime;
                
                 }
             else
@@ -94,22 +96,31 @@ public class IaEnemy : MonoBehaviour
     {
         if (collision.CompareTag("flecha"))
         {
+            sound.playHit();
+            // Obtener la dirección de empuje (flecha -> enemigo)
+            Vector2 pushDirection = (transform.position - collision.transform.position).normalized;
+
+            // Aplicar fuerza de empuje
+
+            float pushDistance = 0.5f; // Ajusta la distancia
+            transform.position += (Vector3)pushDirection * pushDistance;
+
             gameObject.GetComponent<HealthSystem>().TakeDamage(50);
             Debug.Log("enemigo: me pego la flecha");
-     
+
+            rb.freezeRotation = true;
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             //rb.velocity = Vector2.zero;
             colision = collision.gameObject;
 
+
         }
+
     }
+
+   
 
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -126,6 +137,11 @@ public class IaEnemy : MonoBehaviour
                 HealthSystem HealthPlayer = colision.gameObject.GetComponent<HealthSystem>();
                 if (HealthPlayer.currentHealth > 0)
                 {
+                    WarriorMove warrior = colision.GetComponent<WarriorMove>();
+                    if (warrior != null)
+                    {
+                        warrior.hit(transform);
+                    }
                     HealthPlayer.TakeDamage(25);
                     GameManager.Instance.PerderVida();
                 }
@@ -138,6 +154,12 @@ public class IaEnemy : MonoBehaviour
                
             }
         }
+    }
+
+    public void destroy()
+    {
+        sound.enemyExplosion();
+        Destroy(gameObject);
     }
 
 

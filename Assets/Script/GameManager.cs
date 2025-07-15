@@ -5,8 +5,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+	public GameObject menuPausa;
     public Hud hud;
 	private int vidas = 4;
+	public bool pausa = false;
 	private void Awake()
     {
         if (Instance == null)
@@ -18,13 +20,27 @@ public class GameManager : MonoBehaviour
             Debug.Log("Cuidado! Mas de un GameManager en escena.");
         }
     }
-	public void PerderVida()
+    private void Update()
+    {
+		if (Input.GetKeyUp(KeyCode.Escape))
+		{
+			if (pausa)
+			{
+				reaundar();
+			}
+			else
+			{
+				pausar();
+			}
+		}
+    }
+    public void PerderVida()
 	{
 		vidas -= 1;
 
 		if (vidas == 0)
 		{
-		
+			
 		}
 
 		hud.DesactivarVida(vidas);
@@ -41,4 +57,22 @@ public class GameManager : MonoBehaviour
 		vidas += 1;
 		return true;
 	}
+	public void reaundar()
+	{
+		menuPausa.SetActive(false);
+		Time.timeScale = 1;
+		pausa = false;
+	}
+
+	public void pausar()
+	{
+		menuPausa.SetActive(true);
+		Time.timeScale = 0;
+		pausa = true;
+	}
+
+    public void salir()
+    {
+        Application.Quit();
+    }
 }

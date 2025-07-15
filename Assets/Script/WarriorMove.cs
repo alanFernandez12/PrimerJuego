@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WarriorMove : MonoBehaviour
 {
+    public SoundManager sound;
     private int movimientoHorizontal = 0;
     private int movimientoVertical = 0;
     private Vector2 mov = new Vector2(0, 0);
@@ -22,6 +24,7 @@ public class WarriorMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        sound = GetComponent<SoundManager>();
     }
 
     // Update is called once per frame
@@ -124,9 +127,8 @@ public class WarriorMove : MonoBehaviour
 
     public void respawnWarrior()
     {
-        
-        Vector2 direRespawn = respawn.transform.position;
-        rb.MovePosition(direRespawn);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void ShootArrow()
@@ -140,12 +142,17 @@ public class WarriorMove : MonoBehaviour
         // 3. Rotar la flecha para que coincida con la dirección
         //float angle = Mathf.Atan2(shootDirection.y, shootDirection.x) * Mathf.Rad2Deg;
 
+        if(shootDirection.x < 0)
+            arrow.transform.localScale = new Vector3(-1, 1, 1);
 
         // 4. Asignar dirección al script de movimiento de la flecha
         ArrowMove arrowScript = arrow.GetComponent<ArrowMove>();
+        sound.playShot();
         if (arrowScript != null)
         {
+            
             arrowScript.SetDirection(shootDirection);
+            
         }
     }
 
@@ -159,9 +166,26 @@ public class WarriorMove : MonoBehaviour
                     Debug.Log("el jugador se curo 25 de vida.. vida actual: " + gameObject.GetComponent<HealthSystem>().currentHealth);
                     GameManager.Instance.RecuperarVida();
                     collision.gameObject.SetActive(false);
+                    sound.playHeal();
                 }
             }
     }
+
+    public void hit(Transform enemy)
+    {
+        Vector2 pushDirection = (transform.position - enemy.transform.position).normalized;
+
+        // Aplicar fuerza de empuje
+
+        float pushDistance = 0.5f; // Ajusta la distancia
+        transform.position += (Vector3)pushDirection * pushDistance;
+        rb.freezeRotation = true;
+        sound.playHit();
+        Debug.Log("me empujó");
+
+    }
+
+   
 
 }
 

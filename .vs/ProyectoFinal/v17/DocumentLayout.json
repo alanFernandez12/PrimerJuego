@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|c:\\users\\alan\\onedrive\\unity\\proyectofinal\\proyectofinal\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|c:\\users\\alan\\onedrive\\unity\\proyectofinal\\proyectofinal\\assets\\script\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\menupausa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\assets\\script\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\assets\\script\\warriormove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\warriormove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\assets\\script\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\assets\\script\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\assets\\script\\enemynav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemynav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\assets\\script\\iaenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\iaenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\assets\\script\\arrowmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\arrowmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuPausa.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\MenuPausa.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MenuPausa.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\MenuPausa.cs",
+              "RelativeToolTip": "Assets\\Script\\MenuPausa.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:23:03.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hud.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\Hud.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Hud.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\Hud.cs",
+              "RelativeToolTip": "Assets\\Script\\Hud.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:34:25.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwEUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:33:15.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyNav.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\EnemyNav.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyNav.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\EnemyNav.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyNav.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:27:27.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\HealthSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HealthSystem.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\HealthSystem.cs",
+              "RelativeToolTip": "Assets\\Script\\HealthSystem.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T17:13:36.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SoundManager.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SoundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:42:18.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WarriorMove.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\WarriorMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WarriorMove.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\WarriorMove.cs",
+              "RelativeToolTip": "Assets\\Script\\WarriorMove.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwKcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:54:32.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IaEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\IaEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\IaEnemy.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\IaEnemy.cs",
+              "RelativeToolTip": "Assets\\Script\\IaEnemy.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:33:34.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArrowMove.cs",
+              "DocumentMoniker": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\ArrowMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ArrowMove.cs",
+              "ToolTip": "C:\\Users\\Alan\\OneDrive\\Unity\\ProyectoFinal\\ProyectoFinal\\Assets\\Script\\ArrowMove.cs",
+              "RelativeToolTip": "Assets\\Script\\ArrowMove.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:03:02.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ArrowMove : MonoBehaviour
+
 {
+   
     public float speed = 10f; // Velocidad de la flecha
     private Vector2 direction; // Dirección en la que se moverá
     private float destroyTime = 2f; // Tiempo antes de destruir la flecha (en segundos)
@@ -33,9 +35,10 @@ public class ArrowMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+       
         if (collision.CompareTag("Goblin"))
         {
-
+          
 
             Debug.Log("toque al enemigo");
             Destroy(gameObject);
