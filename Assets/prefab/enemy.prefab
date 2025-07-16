@@ -58,6 +58,8 @@ MonoBehaviour:
   hit: {fileID: 8300000, guid: 4bcbc629628fb5f4fa10de37640414e5, type: 3}
   selectMenu: {fileID: 0}
   explosion: {fileID: 8300000, guid: b9a771f1ec1951340890bfdbf2ae5e30, type: 3}
+  heal: {fileID: 0}
+  diePj: {fileID: 0}
 --- !u!114 &7150249043711832236
 MonoBehaviour:
   m_ObjectHideFlags: 0

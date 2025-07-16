@@ -17,6 +17,7 @@ public class WarriorMove : MonoBehaviour
     public GameObject arrowPrefab; // Prefab de la flecha 
     public Transform spawnPoint;   // Punto de spawn de la flecha 
     public float arrowSpeed = 40f; // Velocidad de la flecha
+    public GameObject fin;
 
     
     // Start is called before the first frame update
@@ -109,10 +110,10 @@ public class WarriorMove : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.collider.CompareTag("Goblin"))
+        if (collision.collider.CompareTag("finishGame"))
         {
-            enemyInRange = collision.gameObject;
-            Debug.Log("toque al enemigo");
+            fin.SetActive(true);
+            Time.timeScale = 0;
         }
 
     }
@@ -185,7 +186,7 @@ public class WarriorMove : MonoBehaviour
 
     }
 
-   
+    
 
 }
 
